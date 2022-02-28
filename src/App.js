@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css"
 
 
 export function App() {
@@ -13,19 +14,19 @@ export function App() {
   "This is why you don't have friends",
   "Duhh??",
   "I dont care, and neither do you",
-  "Stop asking stupid questions",
+  "Stop asking me stupid questions",
   "Take a shot and try again",
   "Not in your lifetime",
   "So now you need my help?",
   "My reply is no",
   "Let's sleep on it. Goodnight xoxo 💤",
   "#doubt",
-  "Empty head, no thoughts. Empty ball, no answer....",
+  "Empty head, no thoughts. Empty ball, no answer",
   "Is that what you realllly what to ask me?",
   "Stop thinking, start live, laugh, loving",
   "Dear god no",
-  "The sky is the limit! (You dont have wings, so...)",
-  "That question is triggering, ask me something else"
+  "The sky is the limit! You don't have wings",
+  "You do you boo boo"
 ];
 
   const getAnswer = (e) => {
@@ -38,16 +39,17 @@ export function App() {
   };
 
   return (
-    <div className="ball">
+    <div className="App">
       <form onSubmit={getAnswer}>
+        <h1>Moody 8-Ball</h1>
         <div>
-          <label>question</label>
           <input
             value={question}
+            placeholder="Ask me a question..."
             onChange={(e) => setQuestion(e.target.value)}
           />
         </div>
-        <button type="submit">get answer</button>
+        <button type="submit">Ask</button>
       </form>
       <div className="circle">
         <p>{answer}</p>

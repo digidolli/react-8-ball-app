@@ -1,13 +1,53 @@
 .App {
   text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  color: #8a4fff;
+  background-color: #000814;
+  border: solid 3px #ffd100;
+  border-radius: 50px;
+  padding: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
 }
 
 .App .circle {
-  border: 2px solid black;
+  margin: 50px auto;
+  text-align: center;
+  border: 0.5px solid #ffd100;
   border-radius: 50%;
   width: 150px;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.App button {
+  padding: 7px 15px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #8a4fff;
+  background-color: #000814;
+  border: 1px solid #ffd100;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+.App input {
+  color: #8a4fff;
+  background-color: #000814;
+  border: 0.5px solid #ffd100;
+  border-radius: 50px;
+  padding: 24px;
+  font-size: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+.App h1 {
+  font-weight: bold;
 }
