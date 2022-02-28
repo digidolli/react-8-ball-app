@@ -5,3 +5,8 @@ body {
   max-height: 500px;
   margin: auto auto;
 }
+footer {
+  color: #ffd100;
+  opacity: 0.7;
+  text-align: center;
+}
