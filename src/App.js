@@ -22,7 +22,6 @@ export function App() {
   "Let's sleep on it. Goodnight xoxo 💤",
   "#doubt",
   "Empty head, no thoughts. Empty ball, no answer",
-  "Is that what you realllly what to ask me?",
   "Stop thinking, start live, laugh, loving",
   "Dear god no",
   "The sky is the limit! You don't have wings",
